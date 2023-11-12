@@ -1,0 +1,8 @@
+#button:hover{
+    color: red !important;
+}
+#button2:hover{
+    background: blue !important;
+    color: whitesmoke !important;
+    
+}

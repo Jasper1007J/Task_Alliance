@@ -1,0 +1,153 @@
+.close_button{
+    float: right;
+    border:none;
+    color:black;
+    width:20px;
+    font-weight: light;
+    height:10px;
+    font-size: medium;
+    margin-right: 10px;
+    background-color:white;
+    transition: 0.3s;
+    margin-top: -0.8cm;
+    /* gin-top:0px; */
+}
+
+.close_button:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: red;
+}
+
+#classone{
+    width:40cm;
+    height: 18.5cm;
+    margin-left: 5cm;
+    margin-top: 2cm;
+    z-index: 10000;
+}
+
+.created{
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    font-size: 11px;
+    margin-left: 50px;
+}
+
+.calender_icon{
+    float: right;
+    width: 40px;
+    margin-right: 20px;
+    height: 40px;
+}
+
+.date_time{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.cloud_icon{
+    height: 30px;
+    float: left;
+    margin-left: 300px;
+    width: 30px;
+}
+.cloud-upload:hover{
+    transition: 0.3s;
+    background-color: rgb(236, 236, 236);
+}
+
+
+.cloud-upload div{
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+    font-style: oblique;
+}
+
+.comments{
+    border: none;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0374);
+    outline: none;
+    width: 94%;
+    font-size: large;
+}
+
+.comment_icon{
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+.comment_icon:hover{
+    cursor: pointer;
+}
+#topbox{
+    width: 6cm;
+    font-size: xx-large;
+    margin-top: 0.6cm;
+    margin-left: 0.5cm;
+
+}
+.splitbutton{
+    margin-top: 10px;
+    padding: 0;
+}
+#rt{
+    margin-top: -1.1cm;
+    margin-right: 0.1cm;
+   
+}
+#complet{
+    margin-left: 1cm;
+    margin-top: 0.3cm;
+    background-color: white;
+    z-index: 60000;
+    width: 40px;
+    height: 40px;
+}
+#ackt{
+    margin-top: -2.1cm;
+    margin-left: 7.5cm;
+    border-style: dotted;
+    background-color: white;
+}
+#textarea{
+    width: 100%;
+    height: 3cm;
+    margin-top: 0.9cm;
+    font-size: large;
+    text-align: left;
+    outline: none;
+    border: 1px solid rgb(117, 116, 116);
+    padding-left: 0.2cm;
+    padding-top: 0.2cm;
+}
+#task{
+    width:100%;
+    margin-top: 1cm;
+    height: 1.2cm;
+    outline: none;
+    border: 1px solid rgb(117, 116, 116);
+    font-size: large;
+    z-index: -1;
+    padding-left: 0.2cm;
+
+}
+#todo{
+    margin-top: 0.2cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0.2cm;
+}
+#subtask{
+    margin-top: 0.3cm;
+    margin-left: 0.2cm;
+    font-size: larger;
+
+}
+#lastcommand{
+    height: 2cm;
+}
+
