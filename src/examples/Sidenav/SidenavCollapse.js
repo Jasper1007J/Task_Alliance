@@ -86,14 +86,14 @@ if(name === "Profile"){
           Settings
         </div>
        </SoftButton></NavLink>
-       {/* <NavLink to='/authentication/sign-in' style={{color:'aliceblue'}}> */}
+       <NavLink to='/authentication/sign-in' style={{color:'aliceblue'}}>
        <SoftButton style={{display:'block',marginLeft:'15px',paddingRight:'30%'}} color='error' onClick={()=>{rest.setAuthToken(false)}}>
        
         <div style={{marginLeft:'8px',textAlign:'center'}}>
           Logout
         </div>
-        </SoftButton>
-       {/* </SoftButton></NavLink> */}
+        {/* </SoftButton> */}
+       </SoftButton></NavLink>
       </SoftBox>
       
      </Collapse>

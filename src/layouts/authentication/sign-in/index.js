@@ -28,7 +28,6 @@ function SignIn(props) {
 
   const handleSignInClick = () => {
     setHasClickedSignIn(true);
-    
     console.log("Email:", email);
     console.log("Password:", password);
     console.log("Remember Me:", rememberMe);

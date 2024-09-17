@@ -18,10 +18,10 @@ import Grid from "@mui/material/Grid";
 
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import PinterestIcon from "@mui/icons-material/Pinterest";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import PinterestIcon from "@mui/icons-material/Pinterest";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
 // Soft UI Dashboard React components
 import SoftBox from "components/SoftBox";
@@ -86,7 +86,7 @@ function Footer() {
         </Grid>
         <Grid item xs={12} lg={8} sx={{ textAlign: "center" }}>
           <SoftTypography variant="body2" color="secondary">
-            Copyright &copy; 2021 Soft by Creative Tim.
+            {/* Copyright &copy; 2021 Soft by Creative Tim. */}
           </SoftTypography>
         </Grid>
       </Grid>

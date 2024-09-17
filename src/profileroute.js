@@ -1,6 +1,6 @@
-import Profile from "layouts/profile";
 // Soft UI Dashboard React icons
 import { Person } from "@mui/icons-material";
+import Overview from "layouts/profile";
 
 const profile_route = [
     {
@@ -9,7 +9,7 @@ const profile_route = [
       key: "profile",
       route: "/profile",
       icon: <Person size="12px" />,
-      component: <Profile />,
+      component: <Overview />,
       noCollapse: true,
     },
   ];
