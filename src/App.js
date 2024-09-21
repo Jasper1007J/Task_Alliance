@@ -1,5 +1,3 @@
-
-
 import { useEffect, useMemo, useState } from "react";
 
 // react-router components
