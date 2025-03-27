@@ -45,7 +45,7 @@ subspaceName:[]}
 spaceRoutes.push(spaceRoute)
 
     setOpen(false);
-    setS
+    setSpaceName("");
   };
 
   return (
